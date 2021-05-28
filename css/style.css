@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(185, 124, 83);
+    width: 100%px;
+}
+
+#navbar-brand {
+    font-size: 30px;
+    position: relative;
+    float: left;
+}
+
+button {
+    position: absolute;
+    right: 0;
+}
+
+.navbar-toggle {
+    margin-left: 20px;
+}
+
+#mobmenu li {
+    background: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#mobmenu li a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#mobmenu li a:visited {
+    color: black;
+}
+
+#mobmenu li a:hover,
+a:active,
+a:focus {
+    color: rgb(216, 27, 27);
+}
+
+.icon-btn {
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+section {
+    background: rgb(192, 172, 194);
+    font-weight: bold;
+}
+
+.item-detail {
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+.item-detail a {
+    color: rgb(95, 59, 59);
+    font-size: 20px;
+}
+
+.item-detail a:hover,
+a:active,
+a:focus {
+    color: black;
+}
